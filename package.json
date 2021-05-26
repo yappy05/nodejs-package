@@ -3,7 +3,7 @@
   "version": "0.0.3",
   "description": "Node.js boilerplate package",
   "bin": {
-    "hexlet": "bin/nodejs-package.js"
+    "nodejs-package": "bin/nodejs-package.js"
   },
   "engines": {
     "node": ">=14"
@@ -21,24 +21,18 @@
     "url": "https://github.com/hexlet-boilerplates/nodejs-package/issues"
   },
   "type": "module",
-  "jest": {
-    "testEnvironment": "node",
-    "transform": {},
-    "testRunner": "jest-circus/runner"
-  },
   "homepage": "https://github.com/hexlet-boilerplates/nodejs-package#readme",
   "dependencies": {
     "debug": "^4.3.1",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@jest/globals": "^26.6.2",
-    "eslint": "^7.22.0",
+    "@jest/globals": "^27.0.1",
+    "eslint": "^7.27.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jest": "^24.3.2",
-    "jest": "^26.6.3",
-    "jest-circus": "^26.6.3",
-    "jest-cli": "^26.6.3"
+    "eslint-plugin-import": "^2.23.3",
+    "eslint-plugin-jest": "^24.3.6",
+    "jest": "^27.0.1",
+    "jest-cli": "^27.0.1"
   }
 }
