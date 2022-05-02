@@ -12,7 +12,7 @@
     "node": ">=14"
   },
   "scripts": {
-    "test": "npx jest --bail"
+    "test": "npx jest"
   },
   "repository": {
     "type": "git",
@@ -26,18 +26,18 @@
   "type": "module",
   "homepage": "https://github.com/hexlet-boilerplates/nodejs-package#readme",
   "dependencies": {
-    "debug": "^4.3.3",
+    "debug": "^4.3.4",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@jest/globals": "^27.5.1",
-    "eslint": "^8.10.0",
+    "@jest/globals": "^28.0.3",
+    "eslint": "^8.14.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-jest": "^26.1.1",
-    "jest": "^27.5.1",
-    "jest-cli": "^27.5.1",
-    "npm-check-updates": "^12.5.2",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.1.5",
+    "jest": "^28.0.3",
+    "jest-cli": "^28.0.3",
+    "npm-check-updates": "^12.5.11",
     "simple-git-hooks": "^2.7.0"
   }
 }
