@@ -11,7 +11,8 @@ test:
 	npm test --test-reporter=spec
 
 test-coverage:
-	npm test -- --coverage --coverageProvider=v8
+	# TODO: set global flag --experimental-test-coverage
+	npm test
 
 lint:
 	npx eslint .
