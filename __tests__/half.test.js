@@ -1,7 +1,6 @@
 // @ts-check
 
-import test from 'node:test';
-import { expect } from 'expect';
+import { test, expect } from '@jest/globals';
 import half from '../index.js';
 
 test('half', () => {
