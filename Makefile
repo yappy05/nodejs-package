@@ -4,8 +4,11 @@ install: install-deps
 run:
 	bin/nodejs-package.js 10
 
-install-deps:
+deps-install:
 	npm ci --legacy-peer-deps
+
+deps-update:
+	npx ncu -u
 
 test:
 	npm test

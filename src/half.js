@@ -1,7 +1,5 @@
 // @ts-check
 
-// import _ from 'lodash';
-
 /**
  * @param {Number} num
  */
